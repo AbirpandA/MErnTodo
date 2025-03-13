@@ -9,7 +9,7 @@ function App() {
   const [editText, setEditText] = useState('');
 
   // Base URL for API requests
-  const API_URL = 'http://localhost:3001';
+  const API_URL = 'https://merntodo-63ng.onrender.com';
 
   // Fetch todos from backend when component mounts
   useEffect(() => {
